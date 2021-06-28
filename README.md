@@ -10,6 +10,7 @@ Downloading and Installing Steps:
   6.	Press on (تحفظ) or (save) to save the values of the robot arm's engines to the database.
   7.	Press on (تشغيل) or (run) to extract the last row saved from the database (from the previous step) and to change the On_Mode column to "on".
   8.	To control the base direction press on forward, left, right, backward, or stop (امام,يسار,يمين,خلف,توقف).
+  9.	To change the interface language use the button (EN) for English and (AR) for Arabic.
 
 
 Creation Process:
