@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <!-- meta data -->
+            <title>Control</title>
+            <meta name="Description" content="A user interface to control the robot_Arm's motors" charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css" />
+            <script>
+                function getValue() {
+                    var rangeValue1 = document.getElementById("range1").value
+                    document.getElementById("amount1").value= rangeValue1   
+                    
+                    var rangeValue2 = document.getElementById("range2").value
+                    document.getElementById("amount2").value= rangeValue2  
+
+                    var rangeValue3 = document.getElementById("range3").value
+                    document.getElementById("amount3").value= rangeValue3  
+
+                    var rangeValue4 = document.getElementById("range4").value
+                    document.getElementById("amount4").value= rangeValue4  
+
+                    var rangeValue5 = document.getElementById("range5").value
+                    document.getElementById("amount5").value= rangeValue5  
+
+                    var rangeValue6 = document.getElementById("range6").value
+                    document.getElementById("amount6").value= rangeValue6 
+                }
+            </script>
+        </head>
+
+        <body style="direction: ltr;"> 
+            <input id="language" type="submit" value="EN" onclick="location.href = 'index_eng.html'">
+
+            <input id="language" type="submit" value="AR" onclick="location.href = 'index.html'">
+            <div class="motors_control">
+                <form method="POST" action="results.php" target="_blank">
+                    <label id="label">Engine 1</label><input id="range1" type="range" min="0" max="180" value="90" onchange="getValue()"><input name="amount1" id="amount1" value="90">
+                    <br>
+                    <br>
+                    <label id="label">Engine 2</label><input id="range2" type="range" min="0" max="180" value="90" onchange="getValue()"><input name="amount2" id="amount2" value="90"> 
+                    <br>
+                    <br>
+                    <label id="label">Engine 3</label><input id="range3" type="range" min="0" max="180" value="90" onchange="getValue()"><input name="amount3" id="amount3" value="90"> 
+                    <br>
+                    <br>
+                    <label id="label">Engine 4</label><input id="range4" type="range" min="0" max="180" value="90" onchange="getValue()"><input name="amount4" id="amount4" value="90">  
+                    <br>
+                    <br>
+                    <label id="label">Engine 5</label><input id="range5" type="range" min="0" max="180" value="90" onchange="getValue()"><input name="amount5" id="amount5" value="90">
+                    <br>
+                    <br>
+                    <label id="label">Engine 6</label><input id="range6" type="range" min="0" max="180" value="90" onchange="getValue()"><input name="amount6" id="amount6" value="90"> 
+                    <br>
+                    <br>
+                    <br>
+                    <div id="saveButton" style="text-align: right; margin-right: 6%;">
+                        <input id="button" type="submit" value="Save">
+                    </div>
+                </form>
+                <div id="runMotors" style="text-align: right; margin-right: 6%;">
+                    <form  action="run.php" target="_blank"> 
+                        <input id="button" type="submit" value="Run">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="direction_control">
+                <form method="POST" id="Direction" action="direction.php" target="_blank">
+                    <input id="button1" type="submit" value="Forward" onclick="v" name="Stop">
+                    <br>
+                    <input id="button2" type="submit" value="Left" onclick="Left" name="Stop">
+                    <input id="button3" type="submit" value="Stop" name="Stop">
+                    <input id="button4" type="submit" value="Right" onclick="Right" name="Stop">
+                    <br>
+                    <input id="button5" type="submit" value="Backward" onclick="Backward" name="Stop">
+                </form>
+            </div>
+            
+           
+            
+        </body>
+
+    </html>

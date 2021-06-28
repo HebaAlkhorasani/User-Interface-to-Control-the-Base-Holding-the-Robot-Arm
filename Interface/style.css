@@ -1,0 +1,116 @@
+body {
+    background: whitesmoke;
+    direction: rtl;
+}
+
+div {
+    background-color: white;
+    overflow: auto;
+}
+
+#language {
+    background-color: rgb(129, 153, 160);
+    color: white;
+    border-width: 0px;
+    width: 2.2vw;
+    font-weight: bold;
+    font-size: 1vw; 
+    float: left;
+    cursor: pointer;
+}
+
+.motors_control {
+    float: right;
+    width: 49.8%;
+    height: 35vw;
+    text-align: center;
+    padding-top: 9.2vw;
+    margin-top: 1.3vw;
+}
+
+.direction_control {
+    float: left;
+    width: 49.8%;
+    height: 34.2vw;
+    text-align: center;
+    padding-top: 10vw;
+}
+
+#button {
+    background-color: rgb(129, 153, 160);
+    margin: 20px;
+    margin-top: 10px;
+    color: white;
+    border-width: 0px;
+    width: 10vw;
+    font-weight: bold;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+#saveButton{
+    text-align: left;
+    margin-left: 8%;
+    margin-bottom: 0vw;
+}
+
+#runMotors {
+    text-align: left;
+    margin-left: 8%;
+    margin-bottom: 0vw;
+}
+
+#label {
+    font-weight: bold;
+    font-size: 1.6vw;
+}
+
+#range1, #range2, #range3, #range4, #range5, #range6 {
+    width: 30vw;
+    height: 3px;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+#amount1, #amount2, #amount3, #amount4, #amount5, #amount6 {
+    width: 2.3vw;
+    height: 1vw;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+#button3 {
+    background-color: tomato;
+    margin: 20px;
+    color: white;
+    border-width: 0px;
+    width: 10vw;
+    height: 2.5vw;
+    font-weight: bold;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+#button1, #button2, #button4, #button5 {
+    background-color: mediumaquamarine;
+    margin: 20px;
+    color: white;
+    border-width: 0px;
+    width: 10vw;
+    height: 2.5vw;
+    font-weight: bold;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
