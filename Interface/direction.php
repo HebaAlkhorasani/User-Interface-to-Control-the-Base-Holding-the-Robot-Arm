@@ -1,6 +1,21 @@
 <?php 
     $dir= $_POST["Stop"];
 
+    if($dir=="امام"){
+        $dir="Forward";
+    }
+    elseif($dir=="يسار"){
+        $dir="Left";
+    }
+    elseif($dir=="يمين"){
+        $dir="Right";
+    }
+    elseif($dir=="خلف"){
+        $dir="Backward";
+    }
+    elseif($dir=="توقف"){
+        $dir="Stop";
+    }
 
     $con = mysqli_connect("localhost","root","","robot_arm");
 
