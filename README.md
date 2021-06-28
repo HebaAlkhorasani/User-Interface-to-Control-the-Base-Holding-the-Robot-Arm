@@ -23,6 +23,6 @@ Creation Process:
   7.	Extract the last row saved from the database and display the results on a PHP page (run.php) and (direction.php). Additionally, Change the On_Mode column to "on" in the extracted column.
   8.	(run.php) will run when the user clicks on the (run) or (تشغيل) button. 
   9.	(direction.php) will run when any of the direction buttons are clicked.
-  10.	To make the page responsive (Supports Mobile View), "vw" and "<meta name="viewport" content="width=device-width, initial-scale=1.0">" ware used.
+  10.	To make the page responsive (Supports Mobile View), "vw" and "meta name="viewport" content="width=device-width, initial-scale=1.0"" ware used.
 
 
